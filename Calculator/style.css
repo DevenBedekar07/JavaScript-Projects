@@ -1,0 +1,82 @@
+body{
+    background-image: url("https://img.freepik.com/free-photo/home-plant-notepad-calculator_140725-23288.jpg?t=st=1735899016~exp=1735902616~hmac=b238d8872303fce7b09a89ad274cbbc0c3e4af8df7c5133ed07a7ddd03a07d4f&w=996");
+    background-size: cover;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 10px solid rgb(12, 56, 21);
+    border-radius: 100px;
+    gap: 10px;
+    font-size: larger;
+    flex-direction: column;
+    
+    
+
+}
+
+h2{
+    font-size:50px;
+    
+    font-family:Poppins;
+    text-align: center;
+    text-shadow: 1px 1px 3px ;
+    text-rendering: geometricPrecision;
+    
+    color:rgb(24, 66, 10);
+}
+
+button{
+    background-color: rgb(7, 74, 33);
+    border-radius: 200px;
+    padding: 10px;
+    font-size: 20px;
+    color: antiquewhite;
+    font-weight: bold;
+    width: 120px; 
+    height: 40px;
+    text-align: center;
+    border: none;
+    cursor: pointer; 
+    margin: 5px;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+button:hover {
+    background-color: #e65100;
+    transform: scale(1.05);
+}
+
+::placeholder{
+    color: rgb(255, 252, 252);
+    font-size: 20px;
+    text-align: center;
+
+}
+
+input{
+    background-color: rgb(129, 121, 121);
+    border-radius: 200px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(239, 243, 239);
+}
+
+
+h3{
+    font-size: 50px;
+    /* color: rgb(37, 18, 209); */
+    font-family:Poppins;
+    text-align: center;
+    text-shadow: 1px 1px 3px ;
+    text-rendering: geometricPrecision;
+    padding-bottom: 200px;
+    
+    color:rgb(25, 87, 6);
+
+}
